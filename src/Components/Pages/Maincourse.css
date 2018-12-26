@@ -1,0 +1,140 @@
+img {
+
+  height: 100px;
+  width: 100px;
+
+}
+
+.HomPage{
+    background-image: url(http://sv1.upsieutoc.com/2018/04/15/background.jpg);
+    height: 100%;
+    width: 100%;
+}
+div#content {
+    float: left;
+    width: 100%;
+
+}
+.footer {
+    padding: 10px;
+    height: 13%;
+    background-color: #333131;
+
+}
+
+.footer div.fLeft {
+    float: left;
+    width: 530px;
+}
+
+.footer div.fLeft ul {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer div.fLeft ul li {
+    display: inline;
+    padding: 0 5px;
+}
+.footer div.fLeft ul li.last {
+    border-left: none;
+    padding-left: 0;
+      color: white;
+}
+
+.footer div.fLeft p {
+    text-align: left;
+      color: white;
+}
+
+.footer div.fLeft ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.footer div.fRight ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.footer div.fRight {
+    float: right;
+    width: 530px;
+      color: white;
+}
+
+.footer div.fRight ul {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.footer div.fRight ul li {
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 5px;
+}
+
+.footer div.fRight ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+.footer div.fRight p {
+    text-align: right;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.footer {
+    zoom: 1;
+}
+
+.footer:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+.gNav {
+    clear: both;
+    height: 50px;
+    text-align: center;
+    background-color: #333131;
+    width: 100%;
+}
+.gNav ul {
+    height: 22px;
+    padding: 12px 0;
+}
+
+.gNav ul li {
+    display: inline;
+    padding: 0 70px;
+}
+
+.gNav ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+.gNav ul li a {
+    color: White;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 100px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.gNav ul li a:hover {
+    color: grey;
+}

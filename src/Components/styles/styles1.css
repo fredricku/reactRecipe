@@ -1,0 +1,372 @@
+
+.footer {
+    background-color: #333131;
+
+}
+.footer div.fLeft {
+    float: left;
+    width: 530px;
+}
+
+.footer div.fLeft ul {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer div.fLeft ul li {
+    display: inline;
+    padding: 0 5px;
+}
+.footer div.fLeft ul li.last {
+    border-left: none;
+    padding-left: 0;
+      color: white;
+}
+
+.footer div.fLeft p {
+    text-align: left;
+      color: white;
+}
+
+.footer div.fLeft ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.footer div.fRight ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.footer div.fRight {
+    float: right;
+    width: 530px;
+      color: white;
+}
+
+.footer div.fRight ul {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.footer div.fRight ul li {
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 5px;
+}
+
+.footer div.fRight ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+.footer div.fRight p {
+    text-align: right;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+
+.footer:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.gNav {
+    clear: both;
+    height: 100px;
+    text-align: center;
+    background-color: #333131;
+    width: 100%;
+}
+.gNav ul {
+    height: 22px;
+    padding: 12px 0;
+    margin: 0;
+}
+
+.gNav ul li {
+    display: inline;
+    padding: 0 70px;
+}
+
+.gNav ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+.gNav ul li a {
+    color: White;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.gNav ul li a:hover {
+    color: grey;
+}
+.main-course-grid h1{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+
+}
+
+.header { grid-area: header; }
+
+footer{ grid-area: footer; }
+
+.maincourse-test{
+  text-align: center;
+}
+
+.header { grid-area: header; }
+
+footer{ grid-area: footer; }
+
+.main-container{
+display: grid;
+grid-template-rows: 300px
+                    1fr
+                    200px;
+ grid-template-areas:
+   'header'
+   'main-course'
+   'footer';
+ grid-gap: 10px;
+
+}
+
+.main-course-grid{
+  display: grid;
+  grid-area: main-course;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  1fr;
+}
+
+
+.main-meat-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  100px 1fr 1fr;
+
+}
+
+.main-meat-grid h2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+.main-vegetarian-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  100px 1fr 1fr;
+
+
+}
+
+
+.main-meat-grid h2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+.main-vegetarian-grid h2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.main-vegetarian-grid p{
+  max-width: 200px;
+
+}
+
+.main-vegetarian-grid img{
+  width: 200px;
+  height: 200px;
+}
+
+.recipe{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.recipe p{
+  max-width: 200px;
+
+}
+
+.main-meat-grid img{
+  width: 200px;
+  height: 200px;
+}
+
+/*
+.main-course-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  1fr;
+  grid-gap: 10px;
+
+}
+
+
+.main-meat-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.main-vegetarian-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  1fr 1fr;
+
+
+}
+*/
+/*
+
+.main-meat-grid h2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+.main-vegetarian-grid h2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.main-vegetarian-grid p{
+  max-width: 200px;
+
+}*/
+/*
+.main-vegetarian-grid img{
+  width: 400px;
+  height: 200px;
+}
+
+.recipe{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.recipe p{
+  max-width: 200px;
+
+}
+
+.main-meat-grid img{
+  width: 400px;
+  height: 200px;
+}
+*/
+.login{
+  margin: auto;
+  text-align: center;
+  width: 40%;
+
+}
+.login form{
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+/*Margin adds more space between the two forms and padding increases their sizes.
+  Border-radius makes them rounder and prettier.*/
+.login input{
+  padding: 3%;
+  margin-top: 8%;
+  border-radius: 10px;
+  width: 65%;
+}
+
+
+
+/*Margin to get space from input fields. Padding for bigger sized button.
+  Colors etc. from figma design.   */
+.login button{
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 25px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  padding: 2%;
+  font-size: 1.2em;
+  font-family: Salsa;
+  color: #FFFFFF;
+  background-color: #006691;
+  width: 35%;
+}
+
+
+
+
+.drink{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  1fr 1fr;
+
+}
+
+
+.drink img{
+  margin-top: 10px;
+  width: 400px;
+  height: 300px;
+}
+/*
+.main-course-grid img{
+  margin-top: 10px;
+  width: 400px;
+  height: 300px;
+
+}*/
+
+
+.dessert{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  1fr 1fr;
+
+
+}
+
+.dessert img{
+  margin-top: 10px;
+  width: 400px;
+  height: 300px;
+}
+@media screen and (max-width: 900px) {
+  .main-course-grid, .dessert, .drink {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  1fr;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  .main-meat-grid, .main-vegeterian-grid , .dessert, .drink {
+    grid-template-columns: 100%;
+    grid-template-rows:  1fr;
+}
+}

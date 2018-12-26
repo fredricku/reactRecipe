@@ -1,0 +1,33 @@
+
+
+[
+  {
+    "name": "vegetaria1",
+    "id": "1",
+    "discription":"A spicy homemade teriyaki of soy sauce, cider vinegar. Ginger and garlic enlives chicken....",
+    "photo": "vegetaria1.png",
+    "url":"http://2.bp.blogspot.com/-MmpOPxOlbPc/TaMga0FpbnI/AAAAAAAAQys/4By6koC6Kx8/s1600/maple%2Bcardamom%2Bsalmon%2B001.jpg"
+  },
+  {
+    "name": "vegetaria2",
+    "id": "2",
+    "discription":"A spicy homemade teriyaki of soy sauce, cider vinegar. Ginger and garlic enlives chicken....",
+    "photo": "vegetaria2.png",
+    "url":"http://2.bp.blogspot.com/-MmpOPxOlbPc/TaMga0FpbnI/AAAAAAAAQys/4By6koC6Kx8/s1600/maple%2Bcardamom%2Bsalmon%2B001.jpg"
+  },
+  {
+    "Name": "vegetaria3",
+    "id": "3",
+    "discription":"A spicy homemade teriyaki of soy sauce, cider vinegar. Ginger and garlic enlives chicken....",
+    "photo": "vegetaria3.png",
+    "url":"http://2.bp.blogspot.com/-MmpOPxOlbPc/TaMga0FpbnI/AAAAAAAAQys/4By6koC6Kx8/s1600/maple%2Bcardamom%2Bsalmon%2B001.jpg"
+  },
+  {
+    "Name": "vegetaria0",
+    "id": "0",
+    "discription":"A spicy homemade teriyaki of soy sauce, cider vinegar. Ginger and garlic enlives chicken....",
+    "photo": "vegetaria0.png",
+    "url":"http://2.bp.blogspot.com/-MmpOPxOlbPc/TaMga0FpbnI/AAAAAAAAQys/4By6koC6Kx8/s1600/maple%2Bcardamom%2Bsalmon%2B001.jpg"
+
+  }
+]

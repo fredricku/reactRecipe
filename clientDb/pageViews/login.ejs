@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+  </head>
+  <body>
+    <h1><%= header %></h1>
+    <form action="<%= action %>" method="post">
+      <p>
+        <label for="email">emailaddress:</label>
+        <input type="email" id="email" name="email" size="25">
+      </p>
+      <p>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" size="25">
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+    <a href="/"><button>Menu</button></a>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "getAllSql":[
+    "select userId, firstname, lastname, address, emailaddress, password from user"
+  ],
+  "getUserSql":[
+    "select userId, firstname, lastname, address, emailaddress, password from user",
+    "where userId=?"
+  ],
+  "insertUserSql":[
+    "insert into user (firstname, lastname, address, emailaddress, password)",
+    "values(?,?,?,?,?)"
+  ],
+  "deleteUserSql":[
+    "delete from user where userId=?"
+  ],
+
+  "getLoginSql":[
+    "select emailaddress, password from user",
+    "where emailaddress=? and password=?"
+
+  ],
+
+  "updateUserSql":[
+    "update user set firstname=?, lastname=?, address=?, emailaddress=?, password =?",
+    "where userId=?"
+  ]
+
+}

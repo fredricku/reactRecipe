@@ -1,0 +1,28 @@
+{
+  "debug":true,
+  "host":"localhost",
+  "mysqlport":3306,
+  "admin":"root",
+  "adminpassword":"",
+  "user":"ella",
+  "password":"UNcUd49J",
+  "database":"userdatabase",
+  "dropuser":true,
+  "tables":[
+    {
+      "name":"user",
+      "fields":[
+        "userId int NOT NULL AUTO_INCREMENT primary key",
+        "firstname varchar(8) not null",
+        "lastname varchar(6) not null",
+        "address varchar(21) not null",
+        "emailaddress varchar(18) not null",
+        "password varchar(125) not null"
+      ],
+      "data":[
+        [1,"Leila","Hökki","3 balogu 0337, Helsinki", "leila@yahoo.com", "laila"],
+        [2,"Pirkko","Puro","7, koola 0997, Vantaa", "pirkko@yahoo.com", "pirkko"]
+      ]
+    }
+  ]
+}
