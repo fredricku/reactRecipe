@@ -32,7 +32,7 @@ class Drinks extends Component {
         </ul>
     </header>
 
-<h1> Dessert Menu</h1>
+<h1 className="dessert-h1"> Drink Menu</h1>
 <div className="drink"> {drinks}</div>
 
 <footer className =  "footer">

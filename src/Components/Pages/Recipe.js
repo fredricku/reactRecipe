@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-//import {Route} from 'react-router-dom';
-//import './Maincourse.css'
-//import HomePage from './Components/Pages/HomePage';
-//import NavBar from './NavBar';
 
 import {Link} from 'react-router-dom'
 class Recipe extends Component {
@@ -16,19 +12,17 @@ class Recipe extends Component {
           <li><Link to = '/About'>About</Link></li>
           <li><Link to = '/Recipe'>Recipe</Link></li>
           <li><Link to = '/MyForm'>Login</Link></li>
-          <li><Link to = '/ContributeRecipe'>Login</Link></li>
+
         </ul>
       </header>
 
-<h1> Recipe Menu</h1>
+<h1 className="dessert-h1"> Recipe Menu</h1>
 
 
-<ul className="Menu">
+<ul className="menu">
   <li><Link to = '/Maincourse'>Main Course</Link></li>
   <li><Link to = '/Dessert'>Dessert</Link></li>
   <li><Link to = '/Drinks'>Drinks</Link></li>
-
-<li><Link to = '/ContributeRecipe'>Contribute Recipe</Link></li>
 </ul>
 
 
@@ -46,7 +40,7 @@ class Recipe extends Component {
 <ul>
   <li><a href="contact-us.html">Contact us</a></li>
   <li><Link to = '/About'>About us</Link></li>
-  <li><Link to = '/ContributeRecipe'>Contribute Recipe</Link></li>
+
 
 
 </ul>

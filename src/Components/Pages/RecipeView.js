@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 
-
+import StarRating from '../Pages/StarRating';
 
 class RecipeView extends Component {
 
@@ -58,6 +58,9 @@ class RecipeView extends Component {
 <div>
   <h1>{name}</h1>
  <div style={this.style}><img src = {photo} width={500} height={300} alt=""/></div>
+<div className = "StarRating">
+<StarRating  className = "StarRating"/>
+</div>
  <div className="ingredients">
  <h2>{title}</h2>
  {ingredients}

@@ -59,19 +59,20 @@ class MyForm extends Component {
           <li><Link to = '/MyForm'>Login</Link></li>
         </ul>
       </header>
-      <form className="login" onSubmit= {this.handleSubmit} >
+      <form className="login" action="/login" method="post">
 
       <p>
         <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" size="25"  onChange={this.handleEmail}/>
+        <input type="email" id="email" name="email" value = {this.handleEmail.data} size="25"/>
       </p>
       <p>
         <label htmlFor="password">Password:</label>
-        <input type="password" id="password" name="password" size="25" onChange={this.handlePassword}/>
+        <input type="password" id="password" name="password" value = {this.handlePassword.data} size="25"/>
       </p>
         <p> New user? <Link to = '/Register'>Register with us</Link></p>
       <button type="submit">Send</button>
     </form>
+
     <footer className =  "footer">
 
     <div className="fLeft">

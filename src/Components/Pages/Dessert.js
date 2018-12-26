@@ -31,7 +31,7 @@ class Dessert extends Component {
         </ul>
     </header>
 
-<h1> Dessert Menu</h1>
+<h1 className="dessert-h1"> Dessert Menu</h1>
 <div className="dessert"> {dessert}</div>
 
 <footer className =  "footer">

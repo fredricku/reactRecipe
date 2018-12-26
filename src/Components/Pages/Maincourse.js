@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import VegeData from './data/vegeterianRecipes'
 import MeatData from './data/meatRecipes'
 //import RecipeView from '../Pages/RecipeView/RecipeView'
+
 import {Link} from 'react-router-dom'
 
 
@@ -75,6 +76,7 @@ class Maincourse extends Component {
          <div className = "main-vegetarian-grid">
            <h2>Vegetarian</h2>
            {vegeterian}
+
          </div>
        </div>
 

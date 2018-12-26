@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-//import {Route} from 'react-router-dom';
-//import './Maincourse.css'
-//import HomePage from './Components/Pages/HomePage';
-//import About from './Components/Pages/About';
-//import NavBar from './Components/Pages/NavBar';
+
 import Search from '../Search/Search';
 
 // import SearchRecipe from '../Search/SearchRecipe';
@@ -36,7 +32,7 @@ class HomePage extends Component {
     <li><a href="https://www.facebook.com/login.php?login_attempt=1&lwv=110">Facebook</a></li>
     <li><a href="https://www.instagram.com/accounts/emailsignup/?hl=en">Instagram</a></li>
     <li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
-    
+
   </ul>
 </div>
 

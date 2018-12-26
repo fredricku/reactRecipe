@@ -64,27 +64,27 @@ class Register extends Component {
       <h1 className ="register"> Create your user account with us</h1>
     <form className="register" action="/insert" method="post">
       <p>
-        <label for="firstname">First name:</label>
+        <label htmlfor="firstname">First name:</label>
         <input type="text" id="firstname" name="firstname" size="35"
          />
       </p>
       <p>
-        <label for="lastname">Last name:</label>
+        <label htmlfor="lastname">Last name:</label>
         <input type="text" id="lastname" name="lastname" size="30"
          / >
       </p>
       <p>
-        <label for="address">Address:</label>
+        <label htmlfor="address">Address:</label>
         <input type="text" id="address" name="address" size="30"
           />
       </p>
       <p>
-        <label for="emailaddress">emailaddress:</label>
+        <label htmlfor="emailaddress">emailaddress:</label>
         <input type="email" id="emailaddress" name="emailaddress" size="30"
           />
       </p>
       <p>
-        <label for="password">password:</label>
+        <label htmlfor="password">password:</label>
         <input type="password" id="password" name="password" size="30"
          />
       </p>
