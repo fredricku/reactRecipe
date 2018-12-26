@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 
-class ContributeRecipe extends Component {
+class Register extends Component {
   constructor(props) {
     super(props);
     this.state = {data: {
@@ -61,20 +61,21 @@ class ContributeRecipe extends Component {
           <li><Link to = '/MyForm'>Login</Link></li>
         </ul>
       </header>
-    <form className="comtribute-recipe" action="/insert" method="post">
+      <h1 className ="register"> Create your user account with us</h1>
+    <form className="register" action="/insert" method="post">
       <p>
         <label for="firstname">First name:</label>
-        <input type="text" id="firstname" name="firstname" size="15"
+        <input type="text" id="firstname" name="firstname" size="35"
          />
       </p>
       <p>
         <label for="lastname">Last name:</label>
-        <input type="text" id="lastname" name="lastname" size="25"
+        <input type="text" id="lastname" name="lastname" size="30"
          / >
       </p>
       <p>
         <label for="address">Address:</label>
-        <input type="text" id="address" name="address" size="10"
+        <input type="text" id="address" name="address" size="30"
           />
       </p>
       <p>
@@ -103,7 +104,7 @@ class ContributeRecipe extends Component {
     <ul>
       <li><a href="contact-us.html">Contact us</a></li>
       <li><a href="2.html">About us</a></li>
-      <li><Link to = '/ContributeRecipe'>Contribute Recipe</Link></li>
+      <li><Link to = '/Register'>Sign Up</Link></li>
 
 
     </ul>
@@ -116,4 +117,4 @@ class ContributeRecipe extends Component {
     );
     }
     }
-    export default ContributeRecipe;
+    export default Register;

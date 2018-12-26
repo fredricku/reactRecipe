@@ -69,7 +69,7 @@ class MyForm extends Component {
         <label htmlFor="password">Password:</label>
         <input type="password" id="password" name="password" size="25" onChange={this.handlePassword}/>
       </p>
-        <p> New user? <Link to = '/ContributeRecipe'>Register with us</Link></p>
+        <p> New user? <Link to = '/Register'>Register with us</Link></p>
       <button type="submit">Send</button>
     </form>
     <footer className =  "footer">

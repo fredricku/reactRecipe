@@ -36,7 +36,7 @@ class HomePage extends Component {
     <li><a href="https://www.facebook.com/login.php?login_attempt=1&lwv=110">Facebook</a></li>
     <li><a href="https://www.instagram.com/accounts/emailsignup/?hl=en">Instagram</a></li>
     <li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
-    <li><Link to = '/ContributeRecipe'>Contribute Recipe</Link></li>
+    
   </ul>
 </div>
 
