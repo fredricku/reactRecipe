@@ -36,3 +36,13 @@ User is able to create user account
 The site provides recipe information to users
 
 User is able to rate the recipe.
+
+![user-registeration](../Screenshots/user-registeration.png " user can register to the database with this form")
+
+![registeration-status](../Screenshots/user-registeration-status.png " user successfully register to the database ")
+
+![recipe-menu](../Screenshots/recipe-menu.png " user can navigate through to various recipies")
+
+![dessert-menu](../Screenshots/recipe-menu.png " this shows dessert recipies")
+
+![dessert-child](../Screenshots/dessert-menu.png " this shows dessert child recipe")
