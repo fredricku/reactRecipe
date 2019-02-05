@@ -38,12 +38,14 @@ The site provides recipe information to users
 User is able to rate the recipe.
 
 
-![user-registeration](src/Components/Screenshots/desser-menu.png " this shows dessert recipies")
+![user-registeration](src/Components/Screenshots/desser-menu.png "this shows dessert recipies")
 
-![registeration-status](../Screenshots/user-registeration-status.png " user successfully register to the database ")
+This shows dessert recipies
 
-![recipe-menu](../Screenshots/recipe-menu.png " user can navigate through to various recipies")
+![registeration-status](scr/Components/Screenshots/user-registeration-status.png " user successfully register to the database ")
 
-![dessert-menu](../Screenshots/recipe-menu.png " this shows dessert recipies")
+![recipe-menu](scr/Components/Screenshots/recipe-menu.png " user can navigate through to various recipies")
 
-![dessert-child](../Screenshots/dessert-menu.png " this shows dessert child recipe")
+![dessert-menu](scr/Components/Screenshots/recipe-menu.png " this shows dessert recipies")
+
+![dessert-child](scr/Components/Screenshots/dessert-menu.png " this shows dessert child recipe")
