@@ -38,7 +38,7 @@ The site provides recipe information to users
 User is able to rate the recipe.
 
 
-![user-registeration](src/Components/Screenshots/desser-menu.png)
+![user-registeration](src/Components/Screenshots/desser-menu.png " this shows dessert recipies")
 
 ![registeration-status](../Screenshots/user-registeration-status.png " user successfully register to the database ")
 
