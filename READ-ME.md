@@ -44,8 +44,16 @@ This shows dessert recipies
 
 ![registeration-status](src/Components/Screenshots/user-registeration-status.png)
 
+User successfully register to the database
+
 ![recipe-menu](src/Components/Screenshots/recipe-menu.png)
+
+User can navigate through to various recipies
 
 ![user-registeration](src/Components/Screenshots/user-registeration.png)
 
+User can register to the database
+
 ![dessert-child](src/Components/Screenshots/dessert-child.png)
+
+This shows dessert child recipe
