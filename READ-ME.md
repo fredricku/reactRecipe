@@ -42,10 +42,10 @@ User is able to rate the recipe.
 
 This shows dessert recipies
 
-![registeration-status](...Screenshots/user-registeration-status.png)
+![registeration-status](src/ComponentsScreenshots/user-registeration-status.png)
 
 ![recipe-menu](src/Components/Screenshots/recipe-menu.png)
 
-![user-registeration](...onents/Screenshots/user-registeration.png)
+![user-registeration](src/Components/Screenshots/user-registeration.png)
 
 ![dessert-child](src/Components/Screenshots/dessert-child.png)
