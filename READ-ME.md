@@ -36,8 +36,9 @@ User is able to create user account
 The site provides recipe information to users
 
 User is able to rate the recipe.
+https://github.com/fredricku/reactRecipe/commit/37c652cdb908fcd580e4283fd62f509f5eb3c2bd?short_path=e0532c3#diff-e0532c34e2cb658da9cab69368b541ae
 
-![user-registeration](../Screenshorts/user-registeration.png)
+![user-registeration](/Screenshorts/user-registeration.png)
 
 ![registeration-status](../Screenshots/user-registeration-status.png " user successfully register to the database ")
 
