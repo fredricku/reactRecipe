@@ -37,7 +37,7 @@ The site provides recipe information to users
 
 User is able to rate the recipe.
 
-![user-registeration](../Screenshorts/user-registeration.png " user can register to the database with this form")
+![user-registeration](../Screenshorts/user-registeration.png)
 
 ![registeration-status](../Screenshots/user-registeration-status.png " user successfully register to the database ")
 
